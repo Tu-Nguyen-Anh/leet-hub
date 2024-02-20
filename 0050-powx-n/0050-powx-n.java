@@ -1,7 +1,7 @@
 class Solution {
     public static double myPow(double x, int n) {
         if (x == 0) {
-            return 0; // Trường hợp x = 0, kết quả sẽ luôn là 0.
+            return 0;
         }
         if (n == 0) {
             return 1;
